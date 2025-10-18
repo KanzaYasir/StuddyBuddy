@@ -1,0 +1,68 @@
+
+1. **File Manager Section**
+
+   * Show a list of uploaded files (not just one).
+   * Each file can be clickable → switch context and start asking questions from that file.
+   * Add icons like 📄 PDF, 📑 DOCX, 📊 PPTX.
+
+2. **History Section**
+
+   * Store recent questions asked.
+   * User can click any past question → reload the conversation with that document.
+
+3. **Notes / Summaries**
+
+   * Let users save responses as **personal notes**.
+   * Show a list of saved notes in the sidebar.
+
+4. **Pinned Documents**
+
+   * Allow pinning favorite files for quick access.
+
+5. **Quick Actions / Tools**
+
+   * A “Summarize Document” button.
+   * A “Generate Quiz” button (auto create Q/A from doc).
+   * A “Translate” option.
+
+---
+
+## 🔹 Chat Area Enhancements
+
+1. **AI Personas / Modes**
+
+   * Buttons to switch mode: *Summarizer, Explainer, Quiz Maker, Flashcards.*
+   * Example: If student selects "Quiz Maker," the backend generates MCQs from document.
+
+2. **Rich Responses**
+
+   * Instead of plain text → show formatted answers (bullet points, bold key terms).
+   * You can render **tables, code blocks, or even math formulas** (using `flutter_math`).
+
+3. **Voice Input + Output**
+
+   * Mic button for asking questions by voice.
+   * Text-to-speech to read answers aloud.
+
+4. **Export Options**
+
+   * Export chat as **PDF** or **Word file** (students can keep study notes).
+
+---
+
+## 🔹 General UI Design Ideas
+
+* **Multi-pane layout (like Notion or Obsidian)** → Sidebar + Chat + Notes preview.
+* **Dark & Light themes** → you already have this, but you can add more accents (blue, green, purple themes).
+* **Collapsible Sidebar** → toggle button to expand/collapse sidebar.
+* **Floating Action Buttons** → for quick file upload or asking AI.
+
+---
+
+⚡️ **My suggestion for first enhancement:**
+Start with **Sidebar File Manager** → list of all uploaded files with icons and ability to switch between them.
+That alone makes your app feel more like a *study assistant* rather than a ChatGPT clone.
+
+---
+
+Do you want me to show you a **mock sidebar layout** with a file list + pinned section, so you can copy it into your code?
